@@ -1,49 +1,48 @@
-var seventhgeneration = {
-  name: 'Seventh Generation Organic All-Purpose Natural Cleaner',
-  price: 299,
-  manufacturer: "Seventh Generation",
-  description: "A favorite go-to-cleaner for cutting grease, grime and dirt everywhere in your home. See for yourself why fans swear by it.",
-  inStock: true,
-  url: "https://www.seventhgeneration.com/all-purpose-cleaner?v=69"
-};
-
-var wholefoods = {
-  name: 'Whole Foods Market All-Purpose Concentrated Cleaner',
-  price: 399,
-  manufacturer: "Whole Foods",
-  description: "With pine essential oil, this is the hardest working partner in your cleaning closet for floors, sinks, counters, bathtubs and toilets. Rated yellow on the Eco-Scale.",
+var ipod = {
+  name: 'Apple iPod',
+  price: 19900,
+  manufacturer: "Apple",
+  description: "A8 chip, 8MP iSight camera, 5 stunning colors.",
   inStock: false,
-  url: "http://www.wholefoodsmarket.com/blog/spring-cleaning-greener-cleaners"
+  url: "https://www.apple.com/ipod/"
 };
 
-var ecome = {
-  name: 'Eco-Me Natural All Purpose Cleaner',
-  price: 914,
-  manufacturer: "Eco-Me",
-  description: "Safely clean dirt, grease, or other food-grade stains without harsh chemicals or fumes making this cleaner great for homes with children and pets",
+var iphone = {
+  name: 'Apple iPhone',
+  price: 64900,
+  manufacturer: "Apple",
+  description: "Explore iPhone, the world's most powerful personal device. Check out iPhone 7, iPhone 7 Plus, and iPhone 6s.",
   inStock: true,
-  url: "https://www.amazon.com/Eco-Me-All-Purpose-Spray-Cleaner/dp/B002K627XA"
+  url: "https://www.apple.com/iphone/"
 };
 
-var toms = {
-  name: 'Tom’s of Maine Natural Toothpaste',
-  price: 429,
-  manufacturer: "Tom’s of Maine",
-  description: "Authentic natural ingredients and Whitens with naturally sourced silicas",
+var surface = {
+  name: 'Microsoft Surface Book',
+  price: 114900,
+  manufacturer: "Microsoft",
+  description: "Get a high-performance laptop computer with incredible power, a stunning display, a thin profile and true versatility. ",
   inStock: true,
-  url: "https://www.amazon.com/Toms-Maine-Antiplaque-Fluoride-Free-Toothpaste/dp/B00JUJ1E0W"
+  url: "https://www.microsoft.com/en-us/surface/devices/surface-book/overview"
 };
 
-var deodorant = {
-  name: 'Crystal Body Deodorant Stick, Fragrance Free',
-  price: 719,
-  manufacturer: "CRYSTAL Deodorant",
-  description: "Perfect for men, women and teens, this natural mineral salt deodorant can last over a year with daily suggested use. Moisten the top of the stone before each use.",
+var xbox = {
+  name: 'Microsoft XBOX',
+  price: 28849,
+  manufacturer: "Microsoft",
+  description: "Everything you love about Xbox One, now with 4K Blu-ray™, 4K video streaming, and HDR.",
   inStock: true,
-  url: "https://www.amazon.com/CRYSTAL-BODY-DEODORANT-Stick-Unscented/dp/B000L978FU"
+  url: "https://www.xbox.com/en-US/xbox-one-s"
 };
 
+var echo = {
+  name: 'Amazon Echo',
+  price: 17999,
+  manufacturer: "Amazon",
+  description: "Amazon Echo is a hands-free speaker you control with your voice. Echo connects to the Alexa Voice Service to play music, provide information, news, sports and more.",
+  inStock: true,
+  url: "https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E"
+};
 
-var products = [seventhgeneration, wholefoods, ecome, toms, deodorant];
+var products = [ipod, iphone, surface, xbox, echo];
 
 module.exports = products;
